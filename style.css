@@ -1,7 +1,11 @@
+html{
+    background-color: bisque;
+}
+
 body {
-font font-family: arial;
-width:375;
-height:667;
+font-family: Arial;
+width:375px;
+height:667px;
 
 
 }
@@ -25,27 +29,36 @@ h1 {
     font-size: 24px;
     border-style: solid; 
     width: auto;
+    
+}
+ul{
+    list-style-type: none;
 }
 h2{
     color:black
 }
 p{
-    color:rgb(124, 81, 81);
+    color:rgb(206, 87, 87);
 }
 footer{
-    background-color:none;
     padding: 10px;
     text-align: center;
 }
+
 .options{
-    list-style-type: none;
-    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*e dyta vendos Sign ne qender horizontale, e treta te gjitha ne qender vertikale*/
+   
 }
-.options li {
-    display: inline-block;
-    margin-right: 15px;
+.left{
+margin-right: auto;
 }
-.options li a{
-    text-decoration: none;
-    color:black;
+.right{
+    margin-left: auto;
+}
+.center{
+    margin: auto;
+    
 }
