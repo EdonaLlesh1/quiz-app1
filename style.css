@@ -1,8 +1,16 @@
 body {
 font font-family: arial;
+width:375;
+height:667;
+
 
 }
 
 h1 {
     color:red;
+    text-align: center;
+    font-size: 24px;
+    border-style: dotted;
+    width: auto;
+
 }
